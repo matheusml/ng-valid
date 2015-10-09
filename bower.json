@@ -1,0 +1,40 @@
+{
+    "name": "ng-valid",
+    "version": "0.0.0",
+    "authors": [
+        "Matheus Lima <matheusml90@gmail.com>"
+    ],
+    "description": "An AngularJS directive to trigger a method when an input is valid (or invalid)",
+    "main": "app.js",
+    "keywords": [
+        "AngularJS",
+        "Angular",
+        "valid",
+        "invalid",
+        "input",
+        "trigger"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/matheusml/ng-valid",
+    "ignore": [
+        "node_modules",
+        "tests",
+        "local-examples",
+        ".editorconfig",
+        ".gitignore",
+        ".eslintrc",
+        ".npmignore",
+        ".travis.yml",
+        "CONTRIBUTING.md",
+        "karma.conf.js",
+        "src",
+        "webpack.config.js",
+        "coverage",
+        "other",
+        ".test",
+        "scripts"
+    ],
+    "dependencies": {
+        "angular": "^1.2.x"
+    }
+}
