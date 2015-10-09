@@ -8,7 +8,7 @@ This inside a controller:
 
 ```javascript
 if (form.inputName.$valid) {
-	doSomething()
+    doSomething()
 }
 ```
 
@@ -16,9 +16,9 @@ and also this:
 
 ```javascript
 $scope.$watch('inputName', function(value) {
-	if (isValid(value)) {
-		doSomething()
-	}
+    if (isValid(value)) {
+        doSomething()
+    }
 });
 ```
 
@@ -40,7 +40,7 @@ bower install --save ng-valid
 
 ```html
 <script src="bower_components/angular.js"></script>
-<script src="bower_components/ng-valid/app.js"></script>
+<script src="bower_components/ng-valid/ng-valid.min.js"></script>
 ```
 
 - AngularJS:

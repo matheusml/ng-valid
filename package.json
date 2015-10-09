@@ -1,6 +1,6 @@
 {
   "name": "ng-valid",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "An AngularJS directive to trigger a method when an input is valid (or invalid).",
   "main": "app.js",
   "scripts": {
