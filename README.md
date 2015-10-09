@@ -40,7 +40,7 @@ bower install --save ng-valid
 
 ```html
 <script src="bower_components/angular.js"></script>
-<script src="bower_components/ng-valid/ng-valid.min.js"></script>
+<script src="bower_components/ng-valid/dist/ng-valid.min.js"></script>
 ```
 
 - AngularJS:
