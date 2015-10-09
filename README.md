@@ -8,7 +8,7 @@ This inside a controller:
 
 ```javascript
 if (form.inputName.$valid) {
-	// doSomething()
+	doSomething()
 }
 ```
 
@@ -17,7 +17,7 @@ and also this:
 ```javascript
 $scope.$watch('inputName', function(value) {
 	if (isValid(value)) {
-		// doSomething()
+		doSomething()
 	}
 });
 ```
@@ -48,3 +48,7 @@ bower install --save ng-valid
 ```javascript
 var app = angular.module('app', ['ngValid']);
 ```
+
+## License
+
+See the [LICENSE](https://github.com/matheusml/ng-valid/blob/master/LICENSE) file.
