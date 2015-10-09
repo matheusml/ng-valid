@@ -26,6 +26,8 @@
   "homepage": "https://github.com/matheusml/ng-valid#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-notify": "^2.2.0",
     "gulp-uglify": "^1.4.1"
   }
 }
