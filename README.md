@@ -30,17 +30,37 @@ $scope.$watch('inputName', function(value) {
 
 ## How to install it
 
-- Bower:
+#### Bower:
+- Run
 
 ```bash
 bower install --save ng-valid
 ```
 
-- HTML:
+- HTML
 
 ```html
 <script src="bower_components/angular.js"></script>
 <script src="bower_components/ng-valid/dist/ng-valid.min.js"></script>
+```
+
+- AngularJS:
+
+```javascript
+var app = angular.module('app', ['ngValid']);
+```
+
+#### NPM:
+- Run
+```bash
+npm install --save ng-valid
+```
+
+- HTML:
+
+```html
+<script src="node_modules/angular.js"></script>
+<script src="node_modules/ng-valid/dist/ng-valid.min.js"></script>
 ```
 
 - AngularJS:
